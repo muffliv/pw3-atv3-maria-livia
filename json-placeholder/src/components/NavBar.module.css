@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    list-style: none;
+    background-color: #282c34;
+    padding: 10px;
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.item a:hover {
+    background-color: #61dafb;
+}
